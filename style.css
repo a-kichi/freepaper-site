@@ -14,7 +14,7 @@ body {
     display: block;
     width: 80%;
     position: relative;
-    margin: 50px auto;
+    margin: 50px auto 70px;
 }
 
 .top-logo {
@@ -27,57 +27,90 @@ body {
 
 
 /* intro*/
+/*
+.intro {
+    background-color: #fff4ed;
+}
+*/
+
 .intro h2 {
     color: #eeb262;
     text-align: center;
+    font-size: 62px;
+    font-family: "たいぷ";
+    padding: 100px 0px 40px;
 }
 
 .intro p {
     color: #808080;
     text-align: center;
+    font-family: "ゴシック・ドゥR";
+    font-size: 20px;
+    line-height: 50px;
+    padding-bottom: 100px;
+    letter-spacing: 2px;
 }
 
 /*content-box*/
 .content-box {
-    background-color: #fff4ed;
-    width: 40%;
-    overflow: hidden;
-    margin: 0 auto;
+    background-image: url(img/sec-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 550px;
+    text-align: center;
 }
 
 .content-box h3 {
     color: #eeb262;
+    font-size: 38px;
+    font-family: "たいぷ";
+    padding: 100px 0px 25px;
 }
 
 .content-box p {
     color: #808080;
     width: 350px;
+    line-height: 30px;
+    font-family: "ゴシック・ドゥR";
+    text-align: left;
+    padding-left: 20px;
 }
 
-.content-box a img {
+.con-button {
     display: inline-block;
-    width: 40%;
-    padding: 15px 0px;
+    width: 200px;
+    padding: 24px 0px 0px;
 }
 
 .content-txt {
-    background-color: #fff;
+    /*    background-color: #fff;*/
     float: left;
+    padding: 0px 10px 0px 20px;
+    margin-left: 88px;
 }
 
-.content-box img {
-    width: 25%;
-    clear: both;
+.cover-img {
+    width: 180px;
+    float: left
 }
 
 /* article*/
 
+.con-article {
+    margin: 50px 10% 50px auto;
+}
+
 /*about*/
+
+.con-about {
+    margin: 0 0 40px 10%;
+}
 
 /*footer*/
 
 footer {
-    padding: 50px 0px;
+    padding: 50px 0px 40px;
     text-align: center;
 }
 
@@ -88,9 +121,12 @@ footer li {
 
 footer li a {
     text-decoration: none;
-    color: #000;
+    color: #808080;
+    font-family: "ゴシック・ドゥR";
+    padding: 20px;
 }
 
 footer img {
     width: 15%;
+    margin: 30px;
 }
