@@ -39,6 +39,107 @@ header p {
     line-height: 30px;
 }
 
+/*about-sec*/
+.about-sec {
+    position: relative;
+    margin-bottom: 180px;
+}
+
+.about-sec h4 {
+    font-family: "たいぷ";
+    color: #eeb262;
+    font-size: 24px;
+    text-align: center;
+}
+
+.about-sec span {
+    font-family: "ゴシック・ドゥR";
+    color: #808080;
+}
+
+.about-sec img {
+    position: absolute;
+    width: 430px;
+    top: 250px;
+    right: 210px;
+}
+
+.sec-txt {
+    /*        background-color: #222;*/
+    background-image: url(/img/about-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 690px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 12%;
+}
+
+.sec-txt span {
+    padding-bottom: 20px;
+}
+
+.sec-txt p {
+    line-height: 28px;
+}
+
+/*subtitle*/
+.subtitle {
+    margin-top: 120px;
+}
+
+/*editer*/
+
+
+/*infomation*/
+.info-con {
+    /*    background-color: #222;*/
+    width: 900px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-txt {
+    padding: 0px 120px 0 100px;
+    float: left;
+    text-align: center;
+}
+
+.info-txt p {
+    font-size: 20px;
+    padding: 4px 0 30px;
+}
+
+iframe {
+    border-radius: 30px;
+}
+
+/*flow*/
+.flow {
+    /*    background-color: #222;*/
+    background-image: url(/img/article-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 320px;
+    margin: 0px auto 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flow p {
+    line-height: 40px;
+    text-align: center;
+}
 
 /*footer*/
 
