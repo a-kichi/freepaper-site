@@ -9,16 +9,21 @@ body {
     background-color: #fffbf9;
 }
 
+p {
+    color: #808080;
+    font-family: "ゴシック・ドゥR";
+}
+
 /*header*/
 .top-img {
     display: block;
-    width: 80%;
+    width: 70%;
     position: relative;
     margin: 50px auto 70px;
 }
 
 .top-logo {
-    width: 50%;
+    width: 40%;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -42,9 +47,7 @@ body {
 }
 
 .intro p {
-    color: #808080;
     text-align: center;
-    font-family: "ゴシック・ドゥR";
     font-size: 20px;
     line-height: 50px;
     padding-bottom: 100px;
@@ -65,14 +68,12 @@ body {
     color: #eeb262;
     font-size: 38px;
     font-family: "たいぷ";
-    padding: 100px 0px 25px;
+    padding: 105px 0px 28px;
 }
 
 .content-box p {
-    color: #808080;
     width: 350px;
     line-height: 30px;
-    font-family: "ゴシック・ドゥR";
     text-align: left;
     padding-left: 20px;
 }
@@ -92,7 +93,7 @@ body {
 
 .cover-img {
     width: 180px;
-    float: left
+    float: left;
 }
 
 /* article*/
