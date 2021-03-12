@@ -30,6 +30,11 @@ p {
     top: 0;
 }
 
+.tr:hover {
+    transform: rotate(2deg);
+}
+
+
 section {
     position: relative;
 }
@@ -247,9 +252,26 @@ footer li a {
     color: #808080;
     font-family: "ゴシック・ドゥR";
     padding: 20px;
+    transition: 0.2s;
 }
+
+footer li a:hover {
+    color: #eeb262;
+}
+
 
 footer img {
     width: 15%;
     margin: 30px;
+}
+
+/*js*/
+
+.fadein {
+    opacity: 0;
+    transition: 2s;
+}
+
+.fadein.scrollin {
+    opacity: 1;
 }

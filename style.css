@@ -20,9 +20,13 @@ p {
     font-family: "ゴシック・ドゥR";
 }
 
-.tr{
+.tr {
     position: absolute;
     top: 0;
+}
+
+.tr:hover {
+    transform: rotate(2deg);
 }
 
 /*header*/
@@ -44,7 +48,7 @@ p {
 
 /* intro*/
 .intro {
-/*    background-color: #fff4ed;*/
+    /*    background-color: #fff4ed;*/
     position: relative;
 }
 
@@ -66,15 +70,15 @@ p {
 
 /*tr*/
 
-.intro-cloud{
+.intro-cloud {
     width: 200px;
-    top:170px;
+    top: 170px;
     left: 100px;
 }
 
-.intro-deer{
+.intro-deer {
     width: 200px;
-    top:280px;
+    top: 280px;
     right: 150px;
 }
 
@@ -107,6 +111,11 @@ p {
     display: inline-block;
     width: 200px;
     padding: 24px 0px 0px;
+    transition: 0.2s;
+}
+
+.con-button:hover {
+    width: 210px;
 }
 
 .content-txt {
@@ -123,7 +132,7 @@ p {
 
 /* article*/
 
-.article{
+.article {
     position: relative;
 }
 
@@ -131,15 +140,16 @@ p {
     margin: 50px 10% 50px auto;
 }
 
-.con-article .cover-img{
+.con-article .cover-img {
     padding-top: 20px;
     width: 200px;
-    
+
 }
+
 /*tr*/
 
 
-.ar-wd{
+.ar-wd {
     width: 330px;
     top: 70px;
     left: 90px;
@@ -147,7 +157,7 @@ p {
 
 /*about*/
 
-.about{
+.about {
     position: relative;
 }
 
@@ -155,9 +165,13 @@ p {
     margin: 0 0 40px 10%;
 }
 
+.about .cover-img {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.04);
+}
+
 /*tr*/
 
-.ab-person{
+.ab-person {
     width: 210px;
     top: 140px;
     right: 240px;
@@ -180,9 +194,58 @@ footer li a {
     color: #808080;
     font-family: "ゴシック・ドゥR";
     padding: 20px;
+    transition: 0.2s;
+}
+
+footer li a:hover {
+    color: #eeb262;
 }
 
 footer img {
     width: 15%;
     margin: 30px;
+}
+
+/*js*/
+
+.js-animation {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(40px);
+    transition: all 1s;
+}
+
+.js-animation.is-show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.fadelogo {
+    animation: fadeIn 1s ease-out 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        width: 20%;
+        transform: translate(-50%, 50px);
+
+    }
+
+    to {
+        opacity: 1;
+        width: 40%;
+        transform: translateX(-50% 0px);
+    }
+}
+
+.fadein {
+    opacity: 0;
+    transition: 2s;
+}
+
+
+.fadein.scrollin {
+    opacity: 1;
 }

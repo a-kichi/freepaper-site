@@ -23,6 +23,11 @@ p {
     top: 0;
 }
 
+.tr:hover {
+    transform: rotate(2deg);
+}
+
+
 section {
     position: relative;
 }
@@ -237,6 +242,11 @@ header p {
     display: inline-block;
     width: 200px;
     padding: 24px 0px 0px;
+    transition: 0.2s;
+}
+
+.con-button:hover {
+    width: 210px;
 }
 
 .content-txt {
@@ -249,6 +259,10 @@ header p {
 .cover-img {
     width: 180px;
     float: left
+}
+
+.about .cover-img {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.04);
 }
 
 
@@ -269,9 +283,26 @@ footer li a {
     color: #808080;
     font-family: "ゴシック・ドゥR";
     padding: 20px;
+    transition: 0.2s;
 }
+
+footer li a:hover {
+    color: #eeb262;
+}
+
 
 footer img {
     width: 15%;
     margin: 30px;
+}
+
+/*js*/
+
+.fadein {
+    opacity: 0;
+    transition: 2s;
+}
+
+.fadein.scrollin {
+    opacity: 1;
 }
