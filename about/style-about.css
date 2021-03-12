@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "tifont";
+    src: url("/fonts/たいぷ.ttf");
+}
+
+@font-face {
+    font-family: "pfont";
+    src: url("/fonts/ゴシック・ドゥR.ttf");
+}
+
 body {
     width: 100%;
     list-style: none;
@@ -11,7 +21,7 @@ body {
 
 p {
     color: #808080;
-    font-family: "ゴシック・ドゥR";
+    font-family: "pfont";
 }
 
 /*firstview*/
@@ -28,7 +38,7 @@ p {
 
 header h3 {
     clear: both;
-    font-family: "たいぷ";
+    font-family: "tifont";
     color: #eeb262;
     font-size: 42px;
     padding: 80px 0 0 10%;
@@ -46,14 +56,14 @@ header p {
 }
 
 .about-sec h4 {
-    font-family: "たいぷ";
+    font-family: "tifont";
     color: #eeb262;
     font-size: 24px;
     text-align: center;
 }
 
 .about-sec span {
-    font-family: "ゴシック・ドゥR";
+    font-family: "pfont";
     color: #808080;
 }
 
@@ -156,7 +166,7 @@ footer li {
 footer li a {
     text-decoration: none;
     color: #808080;
-    font-family: "ゴシック・ドゥR";
+    font-family: "pfont";
     padding: 20px;
 }
 
