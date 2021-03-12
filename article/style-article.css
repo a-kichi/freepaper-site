@@ -8,13 +8,6 @@
     src: url("/fonts/たいぷ.ttf");
 }
 
-@font-face {
-    font-family: "pfont";
-    src: url("/fonts/ゴシック・ドゥR.ttf");
-
-}
-
-
 body {
     width: 100%;
     list-style: none;
@@ -25,6 +18,16 @@ p {
     color: #808080;
 }
 
+.tr {
+    position: absolute;
+    top: 0;
+}
+
+section {
+    position: relative;
+}
+
+
 /*firstview*/
 .firstview-logo {
     width: 290px;
@@ -34,6 +37,10 @@ p {
 .firstview-img {
     width: 850px;
     float: right;
+}
+
+header {
+    position: relative;
 }
 
 header h3 {
@@ -49,11 +56,24 @@ header p {
     line-height: 30px;
 }
 
+/*tr*/
+
+.fr-cloud {
+    width: 340px;
+    top: 200px;
+}
+
+.fr-book {
+    width: 200px;
+    top: 500px;
+    right: 200px;
+}
+
 /*profile*/
 .profile {
     display: inline-block;
-    margin: 120px auto 0 10%;
-    width: 1000px;
+    margin: 120px auto 100px;
+    width: 950px;
     display: flex;
     align-items: center;
     /*    background-color: #222;*/
@@ -72,10 +92,17 @@ header p {
 }
 
 .profile p {
-    padding-left: 50px;
-    font-family: "pfont";
+    padding-right: 90px;
+    font-family: "ゴシック・ドゥR";
     line-height: 24px;
-    /*    きいてない！*/
+}
+
+/*tr*/
+
+.pr-cloud {
+    width: 200px;
+    top: 280px;
+    left: 100px;
 }
 
 /*article*/
@@ -94,10 +121,11 @@ header p {
     margin: 0 auto;
 }
 
-.article h4 {
+.article span {
+    display: inline-block;
     color: #808080;
+    padding: 20px 0 8px;
     font-size: 24px;
-    padding: 16px 0;
     font-family: "tifont";
 }
 
@@ -107,12 +135,12 @@ header p {
 
 .article-top {
     /*    background-color: #222;*/
-    margin: 50px 15% 50px auto;
+    margin: 0 0 40px 15%;
 }
 
 .article-middle {
     /*    background-color: #333;*/
-    margin: 0 0 40px 15%;
+    margin: 50px 15% 50px auto;
 }
 
 .article-middle p {
@@ -121,7 +149,33 @@ header p {
 
 .article-bottom {
     /*    background-color: #444;*/
-    margin: 50px 15% 50px auto;
+    margin: 0 0 40px 15%;
+}
+
+/*tr*/
+
+.ar-top-curry {
+    width: 250px;
+    top: 200px;
+    right: 300px;
+}
+
+.ar-top-cloud {
+    width: 250px;
+    top: 350px;
+    right: 170px;
+}
+
+.ar-md-cloud {
+    width: 390px;
+    top: 300px;
+    left: 100px;
+}
+
+.ar-bt-tr {
+    width: 350px;
+    top: 120px;
+    right: 200px;
 }
 
 /*flow*/
@@ -133,12 +187,11 @@ header p {
     background-repeat: no-repeat;
     width: 550px;
     height: 250px;
-    margin: 100px 10% 100px auto;
+    margin: 100px 15% 100px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .flow p {
@@ -147,10 +200,17 @@ header p {
     font-size: 18px;
 }
 
+/*tr*/
+
+.fl-tr {
+    width: 500px;
+    left: 90px;
+}
+
 
 /*content-box*/
 .content-box {
-    background-image: url(/img/sec-bg.png);
+    background-image: url(/img/sec-bg_1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 770px;
@@ -163,11 +223,10 @@ header p {
     color: #eeb262;
     font-size: 38px;
     font-family: "tifont";
-    padding: 105px 0px 28px;
+    padding: 105px 0px 20px;
 }
 
 .content-box p {
-    color: #808080;
     width: 350px;
     line-height: 30px;
     text-align: left;
@@ -208,7 +267,7 @@ footer li {
 footer li a {
     text-decoration: none;
     color: #808080;
-    font-family: "pfont";
+    font-family: "ゴシック・ドゥR";
     padding: 20px;
 }
 

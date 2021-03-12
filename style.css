@@ -8,10 +8,6 @@
     src: url("/fonts/たいぷ.ttf");
 }
 
-@font-face {
-    font-family: "pfont";
-    src: url("/fonts/ゴシック・ドゥR.ttf");
-}
 
 body {
     width: 100%;
@@ -21,7 +17,12 @@ body {
 
 p {
     color: #808080;
-    font-family: "pfont";
+    font-family: "ゴシック・ドゥR";
+}
+
+.tr{
+    position: absolute;
+    top: 0;
 }
 
 /*header*/
@@ -42,11 +43,10 @@ p {
 
 
 /* intro*/
-/*
 .intro {
-    background-color: #fff4ed;
+/*    background-color: #fff4ed;*/
+    position: relative;
 }
-*/
 
 .intro h2 {
     color: #eeb262;
@@ -64,9 +64,24 @@ p {
     letter-spacing: 2px;
 }
 
+/*tr*/
+
+.intro-cloud{
+    width: 200px;
+    top:170px;
+    left: 100px;
+}
+
+.intro-deer{
+    width: 200px;
+    top:280px;
+    right: 150px;
+}
+
+
 /*content-box*/
 .content-box {
-    background-image: url(img/sec-bg.png);
+    background-image: url(img/sec-bg_1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 770px;
@@ -78,7 +93,7 @@ p {
     color: #eeb262;
     font-size: 38px;
     font-family: "tifont";
-    padding: 105px 0px 28px;
+    padding: 105px 0px 20px;
 }
 
 .content-box p {
@@ -97,25 +112,55 @@ p {
 .content-txt {
     /*    background-color: #fff;*/
     float: left;
-    padding: 0px 10px 0px 20px;
+    padding: 0px 20px 0px 20px;
     margin-left: 88px;
 }
 
 .cover-img {
-    width: 180px;
+    width: 170px;
     float: left;
 }
 
 /* article*/
 
+.article{
+    position: relative;
+}
+
 .con-article {
     margin: 50px 10% 50px auto;
 }
 
+.con-article .cover-img{
+    padding-top: 20px;
+    width: 200px;
+    
+}
+/*tr*/
+
+
+.ar-wd{
+    width: 330px;
+    top: 70px;
+    left: 90px;
+}
+
 /*about*/
+
+.about{
+    position: relative;
+}
 
 .con-about {
     margin: 0 0 40px 10%;
+}
+
+/*tr*/
+
+.ab-person{
+    width: 210px;
+    top: 140px;
+    right: 240px;
 }
 
 /*footer*/

@@ -10,8 +10,9 @@
 
 @font-face {
     font-family: "pfont";
-    src: url("/fonts/ゴシック・ドゥR.ttf");
+    src: url("/fonts/ゴシックドゥR.ttf");
 }
+
 
 body {
     width: 100%;
@@ -22,6 +23,15 @@ body {
 p {
     color: #808080;
     font-family: "pfont";
+}
+
+.tr {
+    position: absolute;
+    top: 0;
+}
+
+section {
+    position: relative;
 }
 
 /*firstview*/
@@ -49,10 +59,23 @@ header p {
     line-height: 30px;
 }
 
+/*tr*/
+
+.fr-cloud {
+    width: 340px;
+    top: 200px;
+}
+
+.fr-cloud-right {
+    width: 350px;
+    top: 500px;
+    right: 200px;
+}
+
 /*about-sec*/
 .about-sec {
     position: relative;
-    margin-bottom: 180px;
+    margin-bottom: 200px;
 }
 
 .about-sec h4 {
@@ -60,14 +83,15 @@ header p {
     color: #eeb262;
     font-size: 24px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .about-sec span {
-    font-family: "pfont";
+    font-family: "ゴシック・ドゥR";
     color: #808080;
 }
 
-.about-sec img {
+.sec-img {
     position: absolute;
     width: 430px;
     top: 250px;
@@ -88,21 +112,56 @@ header p {
     margin: 20px 0 0 12%;
 }
 
-.sec-txt span {
-    padding-bottom: 20px;
+.sec-txt p span {
+    padding-bottom: 10px;
+    font-family: "ゴシック・ドゥRE";
+    font-size: 18px;
 }
 
 .sec-txt p {
     line-height: 28px;
+    font-size: 14px;
 }
 
 /*subtitle*/
 .subtitle {
-    margin-top: 120px;
+    margin-top: 200px;
+}
+
+/*tr*/
+
+.sub-sun {
+    width: 180px;
+    top: -110px;
+    left: 350px;
+}
+
+/*
+.sub-cloud{
+    
+}
+*/
+
+.sub-deer {
+    width: 230px;
+    top: -30px;
+    right: 270px;
 }
 
 /*editer*/
+/*tr*/
 
+.ed-book {
+    width: 180px;
+    top: -90px;
+    left: 350px;
+}
+
+.ed-person {
+    width: 150px;
+    top: -20px;
+    right: 270px;
+}
 
 /*infomation*/
 .info-con {
@@ -128,6 +187,26 @@ header p {
 
 iframe {
     border-radius: 30px;
+}
+
+/*tr*/
+
+.info-cb {
+    width: 180px;
+    top: -80px;
+    left: 250px;
+}
+
+.info-ice {
+    width: 150px;
+    top: 340px;
+    left: 150px;
+}
+
+.info-cloud {
+    width: 200px;
+    top: 470px;
+    right: 150px;
 }
 
 /*flow*/
@@ -166,7 +245,7 @@ footer li {
 footer li a {
     text-decoration: none;
     color: #808080;
-    font-family: "pfont";
+    font-family: "ゴシック・ドゥR";
     padding: 20px;
 }
 
