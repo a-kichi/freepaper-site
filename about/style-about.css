@@ -154,7 +154,7 @@ header p {
     position: absolute;
     width: 66%;
     top: 50%;
-    left: 86%;
+    left: 85%;
 }
 
 .sec-txt p span {
@@ -321,9 +321,164 @@ footer img {
 }
 
 
-@media all and (max-width: 1024px) {}
+@media all and (max-width: 1080px) {
+    .firstview-logo {
+        width: 20%;
+        padding: 40px 0 0 8vw;
+    }
 
-@media all and (max-width: 896px) {}
+    .sec-txt {
+        width: 600px;
+        height: 400px;
+        margin: 20px auto 0 10%;
+    }
+
+    .sec-img {
+        position: absolute;
+        width: 47%;
+        top: 50%;
+        left: 87%;
+    }
+
+    .flow {
+        width: 800px;
+        height: 280px;
+    }
+
+}
+
+@media all and (max-width: 896px) {
+    .firstview-logo {
+        width: 23%;
+        padding: 40px 0 0 5%;
+    }
+
+    /*tr*/
+    .fr-cloud {
+        width: 25%;
+        top: 130px;
+    }
+
+    .fr-cloud-right {
+        width: 30%;
+        top: 55%;
+        right: 7%;
+    }
+
+    header h3 {
+        padding: 80px 0 0 5%;
+    }
+
+    header p {
+        padding: 16px 0 0 5%;
+        line-height: 30px;
+    }
+
+    .about-sec {
+        margin-bottom: 100px;
+    }
+
+    .sec-txt {
+        width: 60%;
+        height: 310px;
+        margin: 20px auto 0 5%;
+    }
+
+    .sec-img {
+        width: 55%;
+        top: 55%;
+        left: 85%;
+    }
+
+    .sec-txt p span {
+        font-size: 13px;
+    }
+
+    .sec-txt p {
+        font-size: 9px;
+        line-height: 18px;
+    }
+
+    /*subtitle*/
+    .subtitle {
+        margin-top: 180px;
+    }
+
+    /*tr*/
+
+    .sub-sun {
+        width: 18%;
+        top: -120px;
+        left: 15%;
+    }
+
+    .sub-deer {
+        width: 20%;
+        top: 0px;
+        right: 10%;
+    }
+
+    /*editer*/
+    /*tr*/
+
+    .ed-book {
+        width: 15%;
+        top: -40px;
+        left: 25%;
+    }
+
+    .ed-person {
+        width: 15%;
+        top: 0px;
+        right: 15%;
+    }
+
+    /*infomation*/
+    .info-con {
+        width: 100%;
+    }
+
+    .info-txt {
+        padding: 0px 30px 0 0px;
+        float: left;
+        text-align: center;
+    }
+
+    .info-txt p {
+        font-size: 18px;
+    }
+
+    /*tr*/
+
+    .info-cb {
+        width: 15%;
+        top: -20px;
+        left: 10%;
+    }
+
+    .info-ice {
+        top: 350px;
+        left: 7%;
+    }
+
+    .info-cloud {
+        display: none;
+    }
+
+
+    /*flow*/
+    .flow {
+        width: 80%;
+        height: 230px;
+        margin: 0px auto 70px;
+
+    }
+
+    .flow p {
+        line-height: 24px;
+        text-align: center;
+    }
+}
 
 @media all and (max-width: 500px) {
 
@@ -379,7 +534,7 @@ footer img {
     .sec-img {
         width: 50%;
         top: 180px;
-        left: 5%;
+        left: 7%;
     }
 
     .sec-txt {
