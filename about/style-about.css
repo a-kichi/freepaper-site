@@ -20,6 +20,10 @@ body {
     background-color: #fffbf9;
 }
 
+.sp {
+    display: none;
+}
+
 p {
     color: #808080;
     font-family: "pfont";
@@ -274,4 +278,231 @@ footer img {
 
 .fadein.scrollin {
     opacity: 1;
+}
+
+
+@media all and (max-width: 1024px) {}
+
+@media all and (max-width: 896px) {}
+
+@media all and (max-width: 500px) {
+
+    .fadein {
+        opacity: 1;
+        transition: 2s;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .firstview-img {
+        width: 100%;
+        float: none;
+        position: relative;
+    }
+
+    /*
+
+    .firstview-logo {
+        width: 30%;
+        padding: 0;
+        position: absolute;
+        top: 19%;
+        right: 15px;
+    }
+*/
+
+
+    header h3 {
+        clear: both;
+        font-size: 24px;
+        margin-top: 50px;
+        padding: 0px 0 0 5%;
+    }
+
+    header p {
+        padding: 10px 0 0 5%;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    /*    about*/
+    .about-sec {
+        margin-bottom: 0px;
+    }
+
+    .about-sec h4 {
+        font-size: 23px;
+        padding: 40px 0 10px;
+    }
+
+    .sec-img {
+        width: 40%;
+        top: 250px;
+        left: 10%;
+    }
+
+    .sec-txt {
+        background-image: url(none);
+        width: 80%;
+        height: 170px;
+        margin: 0 auto;
+    }
+
+    .sec-txt p span {
+        font-size: 12px;
+    }
+
+    .sec-txt p {
+        line-height: 17px;
+        font-size: 11px;
+    }
+
+    /*subtitle*/
+    .subtitle {
+        margin-top: 20px;
+        margin-bottom: 150px;
+    }
+
+    /*    editer*/
+
+    .edi-sec {
+        background-color: #fff4ed;
+        padding-bottom: 150px;
+        padding-top: 20px;
+    }
+
+    .edi-sec .sec-img {
+        top: 270px;
+    }
+
+    /*infomation*/
+    .info-con {
+        /*    background-color: #222;*/
+        width: 90%;
+        margin: 0px auto 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info h4 {
+        padding: 60px 0 10px;
+    }
+
+    .info-txt {
+        padding: 20px 0 0;
+        float: none;
+        text-align: center;
+    }
+
+    .info-txt p {
+        font-size: 18px;
+        padding: 0px 0 16px;
+    }
+
+    .info-txt span {
+        padding: 20px;
+    }
+
+    iframe {
+        padding-top: 24px;
+        border-radius: 4px;
+    }
+
+    .flow {
+        background-image: url(/img/sp-ab-fl-bg.png);
+        width: 90%;
+        height: 168px;
+        margin: 0px auto 70px;
+    }
+
+    .flow p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    /*    footer*/
+
+    footer {
+        background-color: #fff4ed;
+        height: 130px;
+        padding: 0px 0px 0px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    footer nav {
+        float: left;
+        margin: 0 30px 0 0;
+    }
+
+    footer li {
+        padding: 4px;
+        display: block;
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        width: 42%;
+        float: none;
+    }
+
+    footer li a {
+        padding: 0;
+    }
+
+    .wave {
+        width: 100%;
+    }
+
+    /*    tr*/
+    .tr {
+        width: 20%;
+        top: 0;
+    }
+
+    .fr-cloud-right {
+        width: 120px;
+        top: 210px;
+        right: 3%;
+    }
+
+    .sub-deer {
+        width: 150px;
+        top: 230px;
+        right: 3%;
+    }
+
+    .ed-book {
+        width: 90px;
+        top: 20px;
+        left: 5%;
+    }
+
+    .ed-person {
+        width: 90px;
+        top: 260px;
+        right: 12%;
+    }
+
+    .info-cb {
+        width: 90px;
+        top: 30px;
+        left: 5%;
+    }
+
 }

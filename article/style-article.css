@@ -14,6 +14,11 @@ body {
     background-color: #fffbf9;
 }
 
+
+.sp {
+    display: none;
+}
+
 p {
     color: #808080;
 }
@@ -305,4 +310,271 @@ footer img {
 
 .fadein.scrollin {
     opacity: 1;
+}
+
+@media all and (max-width: 1024px) {}
+
+@media all and (max-width: 896px) {}
+
+@media all and (max-width: 500px) {
+
+    .fadein {
+        opacity: 1;
+        transition: 2s;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .firstview-img {
+        width: 100%;
+        float: none;
+        position: relative;
+    }
+
+    /*
+    .firstview-logo {
+        width: 30%;
+        padding: 0;
+        position: absolute;
+        top: 45%;
+        right: 15px;
+    }
+*/
+
+    header h3 {
+        clear: both;
+        font-size: 24px;
+        margin-top: 50px;
+        padding: 0px 0 0 5%;
+    }
+
+    header p {
+        padding: 10px 0 0 5%;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    /*    profile*/
+    .profile {
+        display: inline-block;
+        margin: 60px auto 0;
+        width: 83%;
+        display: flex;
+        align-items: center;
+        /*    background-color: #222;*/
+    }
+
+    .profile span {
+        display: inline-block;
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+
+    .profile img {
+        width: 35%;
+        padding: 0;
+    }
+
+    .profile p {
+        padding: 0 0 0 12px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    /*article*/
+
+    .sp-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article {
+        /*        background-color: #222;*/
+        padding: 0;
+        width: 80%;
+    }
+
+    .article img {
+        width: 80%;
+        margin-top: 80px;
+    }
+
+    .article span {
+        display: inline-block;
+        padding: 16px 0 8px;
+        font-size: 12px;
+        font-family: "tifont";
+    }
+
+    .article p {
+        font-size: 11px;
+        text-align: left;
+    }
+
+    .article-top {
+        /*    background-color: #222;*/
+        margin: 0;
+    }
+
+    .article-middle {
+        /*    background-color: #333;*/
+        margin: 0;
+    }
+
+    .article-bottom {
+        /*    background-color: #444;*/
+        margin: 0;
+    }
+
+    /*flow*/
+
+    .flow {
+        width: 80%;
+        height: 140px;
+        margin: 100px auto 0px;
+    }
+
+    .flow p {
+        line-height: 22px;
+        font-size: 12px;
+    }
+
+    /*    con*/
+
+    .content-box {
+        width: 100%;
+        background-image: url(none);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-box h3 {
+        font-size: 22px;
+        padding: 50px 0px 0px;
+    }
+
+    .content-box p {
+        font-size: 12px;
+        width: 300px;
+        line-height: 30px;
+        padding-left: 0px;
+    }
+
+    .con-button {
+        width: 200px;
+        padding: 24px 0px 0px;
+        margin-bottom: 0px;
+    }
+
+    /*
+.con-button:hover {
+    width: 210px;
+}
+*/
+
+    .content-txt {
+        /*    background-color: #fff;*/
+        display: inline-block;
+        float: none;
+        padding-top: 10px;
+        margin: 0 auto;
+    }
+
+    .con-about {
+        margin: 0 0 40px 0;
+        height: 560px;
+    }
+
+    .con-about h3 {
+        padding: 100px 0 20px;
+    }
+
+    .con-about .cover-img {
+        width: 40%;
+    }
+
+    .con-about .con-button {
+        padding-bottom: 50px;
+    }
+
+    /*footer*/
+
+    footer {
+        background-color: #fff4ed;
+        height: 130px;
+        padding: 0px 0px 0px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    footer nav {
+        float: left;
+        margin: 0 30px 0 0;
+    }
+
+    footer li {
+        padding: 4px;
+        display: block;
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        width: 42%;
+        float: none;
+    }
+
+    footer li a {
+        padding: 0;
+    }
+
+    .wave {
+        width: 100%;
+    }
+
+    /*    tr*/
+    .fr-book {
+        width: 22%;
+        top: 330px;
+        right: 8%;
+    }
+
+    .ar-top-curry {
+        width: 24%;
+        top: 440px;
+        right: 8%;
+    }
+
+    .ar-bt-tr {
+        width: 20%;
+        top: 30px;
+        left: 5%;
+    }
+
+    .ab-person {
+        width: 22%;
+        top: 210px;
+        right: 16px;
+    }
+
+    .fl-tr-sun {
+        width: 30%;
+        top: -110px;
+        right: 5%;
+    }
 }

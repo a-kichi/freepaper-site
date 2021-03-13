@@ -15,6 +15,10 @@ body {
     background-color: #fffbf9;
 }
 
+.sp {
+    display: none;
+}
+
 p {
     color: #808080;
     font-family: "ゴシック・ドゥR";
@@ -34,13 +38,13 @@ p {
     display: block;
     width: 70%;
     position: relative;
-    margin: 50px auto 70px;
+    margin: 5% auto 6% 14%;
 }
 
 .top-logo {
     width: 40%;
     position: absolute;
-    top: 30%;
+    top: 33vh;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -73,7 +77,7 @@ p {
 .intro-cloud {
     width: 200px;
     top: 170px;
-    left: 100px;
+    left: 8%;
 }
 
 .intro-deer {
@@ -143,7 +147,6 @@ p {
 .con-article .cover-img {
     padding-top: 20px;
     width: 200px;
-
 }
 
 /*tr*/
@@ -208,6 +211,7 @@ footer img {
 
 /*js*/
 
+/*
 .js-animation {
     opacity: 0;
     visibility: hidden;
@@ -220,7 +224,9 @@ footer img {
     visibility: visible;
     transform: translateY(0px);
 }
+*/
 
+/*
 .fadelogo {
     animation: fadeIn 1s ease-out 0s 1 normal;
 }
@@ -228,8 +234,8 @@ footer img {
 @keyframes fadeIn {
     from {
         opacity: 0;
-        width: 20%;
-        transform: translate(-50%, 50px);
+        width: 10%;
+        transform: translate(-50%, 70px);
 
     }
 
@@ -239,6 +245,7 @@ footer img {
         transform: translateX(-50% 0px);
     }
 }
+*/
 
 .fadein {
     opacity: 0;
@@ -248,4 +255,178 @@ footer img {
 
 .fadein.scrollin {
     opacity: 1;
+}
+
+@media all and (max-width: 1024px) {
+    .top-logo {
+        top: 25vh;
+    }
+}
+
+@media all and (max-width: 896px) {
+    .top-logo {
+        top: 21vh;
+    }
+}
+
+@media all and (max-width: 500px) {
+/*
+    .fadein {
+        opacity: 1;
+        transition: 2s;
+    }
+*/
+
+    .sp {
+        display: block;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .sp-first-img {
+        width: 100%;
+    }
+
+    .top-logo {
+        width: 80%;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .intro h2 {
+        font-size: 26px;
+        padding: 80px 0px 16px;
+    }
+
+    .intro p {
+        /*        background-color: #222;*/
+        font-size: 12px;
+        line-height: 26px;
+        padding-bottom: 70px;
+    }
+
+    .content-box {
+        width: 100%;
+        background-image: url(none);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article {
+        background-color: #fff4ed;
+    }
+
+    .content-box h3 {
+        font-size: 22px;
+        padding: 50px 0px 0px;
+    }
+
+    .content-box p {
+        font-size: 12px;
+        width: 300px;
+        line-height: 30px;
+        padding-left: 0px;
+    }
+
+    .con-button {
+        width: 200px;
+        padding: 24px 0px 0px;
+        margin-bottom: 0px;
+    }
+
+    /*
+.con-button:hover {
+    width: 210px;
+}
+*/
+
+    .content-txt {
+        /*    background-color: #fff;*/
+        display: inline-block;
+        float: none;
+        padding-top: 10px;
+        margin: 0 auto;
+    }
+
+    .con-article {
+        margin: 0 0 40px 0;
+        height: 500px;
+    }
+
+    .con-about {
+        margin: 0 0 40px 0;
+        height: 560px;
+    }
+
+    .con-about h3 {
+        padding: 100px 0 20px;
+    }
+
+    .con-about .cover-img {
+        width: 40%;
+    }
+
+    .con-about .con-button {
+        padding-bottom: 50px;
+    }
+
+    /*footer*/
+
+    footer {
+        background-color: #fff4ed;
+        height: 130px;
+        padding: 0px 0px 0px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    footer nav {
+        float: left;
+        margin: 0 30px 0 0;
+    }
+
+    footer li {
+        padding: 4px;
+        display: block;
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        width: 42%;
+        float: none;
+    }
+
+    footer li a {
+        padding: 0;
+    }
+
+    /*tr*/
+    .ar-wd {
+        width: 100px;
+        top: -360px;
+        left: 15px;
+    }
+
+    .ab-person {
+        width: 22%;
+        top: 210px;
+        right: 16px;
+    }
+
+    .wave {
+        width: 100%;
+    }
+
 }
