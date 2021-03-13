@@ -327,11 +327,6 @@ footer img {
 
 @media all and (max-width: 500px) {
 
-    .fadein {
-        opacity: 1;
-        transition: 2s;
-    }
-
     .sp {
         display: block;
     }
@@ -382,9 +377,9 @@ footer img {
     }
 
     .sec-img {
-        width: 40%;
-        top: 250px;
-        left: 10%;
+        width: 50%;
+        top: 180px;
+        left: 5%;
     }
 
     .sec-txt {
@@ -410,15 +405,10 @@ footer img {
     }
 
     /*    editer*/
-
     .edi-sec {
         background-color: #fff4ed;
         padding-bottom: 150px;
         padding-top: 20px;
-    }
-
-    .edi-sec .sec-img {
-        top: 270px;
     }
 
     /*infomation*/
@@ -485,15 +475,16 @@ footer img {
         margin: 0px;
     }
 
-    footer nav {
-        float: left;
-        margin: 0 30px 0 0;
+    footer img {
+        width: 90%;
+        margin: 0px;
+        padding: 0 20px;
     }
 
-    footer li {
-        padding: 4px;
-        display: block;
-        font-size: 12px;
+    footer nav {
+        float: left;
+        margin: 0 7px 0 0;
+        padding-left: 30px;
     }
 
     .footer-logo {
@@ -503,10 +494,14 @@ footer img {
 
     footer li a {
         padding: 0;
+        font-size: 13px;
     }
+
 
     .wave {
         width: 100%;
+        margin-top: 0px;
+        margin-bottom: -7px;
     }
 
     /*    tr*/
