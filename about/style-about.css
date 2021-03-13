@@ -361,7 +361,7 @@ footer img {
 
     .fr-cloud-right {
         width: 30%;
-        top: 55%;
+        top: 370px;
         right: 7%;
     }
 
@@ -380,7 +380,7 @@ footer img {
 
     .sec-txt {
         width: 60%;
-        height: 310px;
+        height: 350px;
         margin: 20px auto 0 5%;
     }
 
@@ -396,12 +396,12 @@ footer img {
 
     .sec-txt p {
         font-size: 9px;
-        line-height: 18px;
+        line-height: 24px;
     }
 
     /*subtitle*/
     .subtitle {
-        margin-top: 180px;
+        margin-top: 120px;
     }
 
     /*tr*/
@@ -439,7 +439,7 @@ footer img {
     }
 
     .info-txt {
-        padding: 0px 30px 0 0px;
+        padding: 0px 40px 0 0px;
         float: left;
         text-align: center;
     }
@@ -469,7 +469,7 @@ footer img {
     /*flow*/
     .flow {
         width: 80%;
-        height: 230px;
+        height: 260px;
         margin: 0px auto 70px;
 
     }
