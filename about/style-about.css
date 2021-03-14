@@ -162,15 +162,15 @@ header p {
     left: 85%;
 }
 
-.sec-txt p span {
-    padding-bottom: 10px;
+.sec-txt span {
     font-family: "pfont";
     font-weight: bold;
     font-size: 18px;
+    line-height: 40px;
 }
 
 .sec-txt p {
-    line-height: 28px;
+    line-height: 24px;
     font-size: 0.8em;
 }
 

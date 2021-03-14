@@ -184,11 +184,13 @@ header p {
 .article span {
     display: inline-block;
     color: #808080;
+    padding: 24px 0 10px;
     font-size: 24px;
     font-family: "tifont";
 }
 
 .article p {
+    line-height: 30px;
     text-align: left;
 }
 
