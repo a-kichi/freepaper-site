@@ -789,6 +789,10 @@ footer li a:hover {
             margin: 0;
         }
 
+        .article-top img {
+            margin-top: 60px;
+        }
+
         .article-middle {
             /*    background-color: #333;*/
             margin: 0;
@@ -884,6 +888,7 @@ footer li a:hover {
         }
 
         footer nav {
+            width: 190px;
             float: left;
             margin: 0;
             padding-left: 7%;
