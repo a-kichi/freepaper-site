@@ -67,6 +67,11 @@ p {
     font-family: "pfont";
 }
 
+span {
+    color: #808080;
+    font-family: "pfont";
+}
+
 .tr {
     position: absolute;
     top: 0;
@@ -682,7 +687,7 @@ footer li a:hover {
     }
 
     .ed-book {
-        width: 90px;
+        width: 85px;
         top: 20px;
         left: 5%;
     }
@@ -699,4 +704,11 @@ footer li a:hover {
         left: 5%;
     }
 
+    .tr:hover {
+        transform: rotate(0deg);
+    }
+
+    .tr:active {
+        transform: rotate(2deg);
+    }
 }

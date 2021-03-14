@@ -8,6 +8,11 @@
     src: url("/fonts/たいぷ.ttf");
 }
 
+@font-face {
+    font-family: "pfont";
+    src: url("/fonts/ゴシックドゥR.ttf");
+}
+
 body {
     width: 100%;
     list-style: none;
@@ -59,7 +64,14 @@ body {
 
 p {
     color: #808080;
+    font-family: "pfont";
 }
+
+span {
+    color: #808080;
+    font-family: "pfont";
+}
+
 
 .tr {
     position: absolute;
@@ -172,7 +184,6 @@ header p {
 .article span {
     display: inline-block;
     color: #808080;
-    padding: 20px 0 8px;
     font-size: 24px;
     font-family: "tifont";
 }
@@ -738,7 +749,7 @@ footer li a:hover {
         .profile p {
             padding: 0 0 0 12px;
             font-size: 10px;
-            line-height: 17px;
+            line-height: 15px;
         }
 
         /*article*/
@@ -762,7 +773,7 @@ footer li a:hover {
 
         .article span {
             display: inline-block;
-            padding: 16px 0 8px;
+            padding: 16px 0 4px;
             font-size: 12px;
             font-family: "tifont";
         }
@@ -813,13 +824,12 @@ footer li a:hover {
 
         .content-box h3 {
             font-size: 22px;
-            padding: 50px 0px 0px;
         }
 
         .content-box p {
             font-size: 12px;
             width: 300px;
-            line-height: 30px;
+            line-height: 20px;
             padding-left: 0px;
         }
 
@@ -843,21 +853,24 @@ footer li a:hover {
             margin: 0 auto;
         }
 
+
         .con-about {
-            margin: 0 0 40px 0;
-            height: 560px;
+            margin: 0;
+            height: 500px;
         }
 
         .con-about h3 {
-            padding: 100px 0 20px;
+            padding: 40px 0 20px;
         }
 
         .con-about .cover-img {
             width: 40%;
         }
 
+
+
         .con-about .con-button {
-            padding-bottom: 50px;
+            padding-bottom: 0px;
         }
 
         /*footer*/
@@ -889,19 +902,21 @@ footer li a:hover {
 
         .wave {
             width: 100%;
+            margin-top: 50px;
         }
 
         /*    tr*/
         .fr-book {
             width: 22%;
-            top: 330px;
+            top: 320px;
             right: 8%;
         }
 
         .ar-top-curry {
             width: 24%;
-            top: 440px;
+            top: 400px;
             right: 8%;
+            z-index: 1;
         }
 
         .ar-bt-tr {
@@ -920,5 +935,13 @@ footer li a:hover {
             width: 30%;
             top: -110px;
             right: 5%;
+        }
+
+        .tr:hover {
+            transform: rotate(0deg);
+        }
+
+        .tr:active {
+            transform: rotate(2deg);
         }
     }

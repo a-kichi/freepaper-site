@@ -8,6 +8,11 @@
     src: url("/fonts/たいぷ.ttf");
 }
 
+@font-face {
+    font-family: "pfont";
+    src: url("/fonts/ゴシックドゥR.ttf");
+}
+
 
 body {
     width: 100%;
@@ -59,7 +64,12 @@ body {
 
 p {
     color: #808080;
-    font-family: "ゴシック・ドゥR";
+    font-family: "pfont";
+}
+
+span {
+    color: #808080;
+    font-family: "pfont";
 }
 
 .tr {
@@ -473,7 +483,7 @@ footer li a:hover {
     .content-box p {
         font-size: 12px;
         width: 300px;
-        line-height: 30px;
+        line-height: 20px;
         padding-left: 0px;
     }
 
@@ -495,16 +505,17 @@ footer li a:hover {
         float: none;
         padding-top: 10px;
         margin: 0 auto;
+
     }
 
     .con-article {
-        margin: 0 0 40px 0;
-        height: 500px;
+        margin: 0 0 -50px 0;
+        height: 400px;
     }
 
     .con-about {
-        margin: 0 0 40px 0;
-        height: 560px;
+        margin: 0 0 0 0;
+        height: 480px;
     }
 
     .con-about h3 {
@@ -516,7 +527,7 @@ footer li a:hover {
     }
 
     .con-about .con-button {
-        padding-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     /*footer*/
