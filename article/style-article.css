@@ -153,7 +153,7 @@ header p {
 .profile p {
     padding-left: 20px;
     padding-right: 4vw;
-    font-family: "ゴシック・ドゥR";
+    font-family: "pfont";
     line-height: 24px;
 }
 
@@ -780,6 +780,7 @@ footer li a:hover {
 
         .article p {
             font-size: 11px;
+            line-height: 17px;
             text-align: left;
         }
 
@@ -865,6 +866,7 @@ footer li a:hover {
 
         .con-about .cover-img {
             width: 40%;
+            margin-bottom: 10px;
         }
 
 
@@ -944,4 +946,6 @@ footer li a:hover {
         .tr:active {
             transform: rotate(2deg);
         }
+
+
     }

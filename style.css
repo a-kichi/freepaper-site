@@ -513,6 +513,10 @@ footer li a:hover {
         height: 400px;
     }
 
+    .con-article .cover-img {
+        padding: 17px 0 0;
+    }
+
     .con-about {
         margin: 0 0 0 0;
         height: 480px;
@@ -524,6 +528,7 @@ footer li a:hover {
 
     .con-about .cover-img {
         width: 40%;
+        margin-bottom: 10px;
     }
 
     .con-about .con-button {
@@ -560,7 +565,7 @@ footer li a:hover {
     /*tr*/
     .ar-wd {
         width: 100px;
-        top: -390px;
+        top: -10px;
         left: 15px;
     }
 
