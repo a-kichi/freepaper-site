@@ -542,13 +542,13 @@ footer li a:hover {
     .sec-txt {
         background-image: url(none);
         width: 80%;
-        height: 170px;
+        height: 180px;
         margin: 0 auto;
     }
 
     .sec-txt p span {
         font-size: 12px;
-        line-height: 24px;
+        line-height: 20px;
     }
 
     .sec-txt p {
@@ -563,7 +563,7 @@ footer li a:hover {
     }
 
     .subtitle .sec-txt {
-        height: 150px;
+        height: 160px;
     }
 
     .subtitle .sec-img {
