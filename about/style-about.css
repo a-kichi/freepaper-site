@@ -136,7 +136,7 @@ header p {
 }
 
 .about-sec span {
-    font-family: "ゴシック・ドゥR";
+    font-family: "pfont";
     color: #808080;
 }
 
@@ -300,7 +300,7 @@ footer li {
 footer li a {
     text-decoration: none;
     color: #808080;
-    font-family: "ゴシック・ドゥR";
+    font-family: "pfont";
     padding: 20px;
     transition: 0.2s;
 }
