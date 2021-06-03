@@ -72,6 +72,14 @@ span {
     font-family: "pfont";
 }
 
+.instaurl {
+    color: #eeb262;
+}
+
+.instaurl:active {
+    color: #eeb262;
+}
+
 .tr {
     position: absolute;
     top: 0;
@@ -478,7 +486,6 @@ footer li a:hover {
         width: 80%;
         height: 260px;
         margin: 0px auto 70px;
-
     }
 
     .flow p {
